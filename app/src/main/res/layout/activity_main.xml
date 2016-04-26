@@ -19,7 +19,8 @@
         android:layout_alignParentRight="true"
         android:textSize="@dimen/h4"
         android:layout_marginRight="50dp"
-        android:background="#3555a7ca" />
+        android:background="#3555a7ca"
+        android:onClick="testMyAlert" />
 
     <Button
         android:layout_width="wrap_content"

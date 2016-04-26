@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickRegis(View view) {
         startActivity(new Intent(MainActivity.this, SignUp.class));
+
+    }
+
+    public void testMyAlert(View view) {
+        MyAlert myAlert = new MyAlert();
+        myAlert.myDialog(this,"Alert","ทดสอบ");
     }
 
     private void bindWidget() {

@@ -155,5 +155,6 @@
         android:text="SIGN UP"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
-        android:textSize="@dimen/h4" />
+        android:textSize="@dimen/h4"
+        android:background="#96ffffff" />
 </RelativeLayout>
