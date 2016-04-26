@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.junamonduangsang.ice_database.SignUp">
+    tools:context="ice_pbru.junamonduangsang.ice_database.SignUp"
+    android:background="@drawable/bg666">
 
     <LinearLayout
         android:orientation="vertical"
@@ -17,16 +18,20 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign Up"
+            android:text="Registration"
             android:id="@+id/textView"
             android:gravity="center_horizontal"
-            android:textSize="45dp"
-            android:textColor="#060505" />
+            android:textSize="@dimen/h4"
+            android:textColor="#060505"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="#96ffffff"
+            android:layout_marginBottom="75dp">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -36,19 +41,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Name"
+                    android:text="Name :"
                     android:id="@+id/textView2"
-                    android:textSize="30dp"
-                    android:textColor="#060505" />
+                    android:textSize="@dimen/h2" />
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-                    android:text="Name"
                     android:ems="10"
                     android:id="@+id/editText"
-                    android:textSize="30dp"
+                    android:textSize="@dimen/h3"
                     android:layout_marginLeft="30dp" />
 
             </LinearLayout>
@@ -61,18 +64,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Surname"
+                    android:text="Surname :"
                     android:id="@+id/textView3"
-                    android:textSize="30dp" />
+                    android:textSize="@dimen/h2" />
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-                    android:text="Name"
                     android:ems="10"
                     android:id="@+id/editText2"
-                    android:layout_marginLeft="30dp" />
+                    android:layout_marginLeft="30dp"
+                    android:textSize="@dimen/h3"
+                    android:singleLine="false" />
             </LinearLayout>
 
             <LinearLayout
@@ -83,18 +87,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="User"
+                    android:text="User :"
                     android:id="@+id/textView4"
-                    android:textSize="30dp" />
+                    android:textSize="@dimen/h2" />
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-                    android:text="Name"
                     android:ems="10"
                     android:id="@+id/editText3"
-                    android:layout_marginLeft="30dp" />
+                    android:layout_marginLeft="30dp"
+                    android:textSize="@dimen/h3" />
             </LinearLayout>
 
             <LinearLayout
@@ -105,18 +109,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Password"
+                    android:text="Password :"
                     android:id="@+id/textView5"
-                    android:textSize="30dp" />
+                    android:textSize="@dimen/h2" />
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-                    android:text="Name"
                     android:ems="10"
                     android:id="@+id/editText4"
-                    android:layout_marginLeft="30dp" />
+                    android:layout_marginLeft="30dp"
+                    android:textSize="@dimen/h3" />
             </LinearLayout>
 
             <LinearLayout
@@ -127,18 +131,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Email"
+                    android:text="Email :"
                     android:id="@+id/textView6"
-                    android:textSize="30dp" />
+                    android:textSize="@dimen/h2" />
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress|textPersonName"
-                    android:text="Name"
                     android:ems="10"
                     android:id="@+id/editText5"
-                    android:layout_marginLeft="30dp" />
+                    android:layout_marginLeft="30dp"
+                    android:textSize="@dimen/h3" />
             </LinearLayout>
 
         </LinearLayout>
@@ -151,5 +155,5 @@
         android:text="SIGN UP"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
-        android:textSize="30dp" />
+        android:textSize="@dimen/h4" />
 </RelativeLayout>
