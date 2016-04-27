@@ -116,7 +116,7 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="textPersonName"
+                    android:inputType="numberPassword|textPassword"
                     android:ems="10"
                     android:id="@+id/editText4"
                     android:layout_marginLeft="30dp"
@@ -156,5 +156,6 @@
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
         android:textSize="@dimen/h4"
-        android:background="#96ffffff" />
+        android:background="#96ffffff"
+        android:onClick="clickSignUp" />
 </RelativeLayout>

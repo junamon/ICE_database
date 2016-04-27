@@ -20,7 +20,7 @@
         android:textSize="@dimen/h4"
         android:layout_marginRight="50dp"
         android:background="#3555a7ca"
-        android:onClick="testMyAlert" />
+        android:onClick="clickSinIn" />
 
     <Button
         android:layout_width="wrap_content"
@@ -33,4 +33,52 @@
         android:onClick="clickRegis"
         android:layout_marginLeft="50dp"
         android:background="#3555a7ca" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="200dp"
+        android:background="#8074c2f3">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:src="@drawable/a33" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="@dimen/h2"
+            android:hint="Username"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/editText7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:textSize="@dimen/h2"
+            android:hint="Password"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
 </RelativeLayout>
