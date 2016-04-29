@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     //Explicit
     private EditText userEditText, passwordEditText;
     private String userString, passwordString;
+    private MySQLite mySQLite;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //เริ่ม bind Widget
         bindWidget();
+
+        mySQLite = new MySQLite(this);
+
+
 
 
 }//Main Method
